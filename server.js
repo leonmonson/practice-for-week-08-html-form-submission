@@ -106,7 +106,22 @@ const server = http.createServer((req, res) => {
       console.log(req.body);
     }
 
-    // Your code here
+  get request 
+    <form action = "/"
+    method = "get">
+      type submit post
+
+    <form action = "/"
+    method = "patch">
+    type = "patch"
+
+    <form action =  "/"
+      method = "put">
+        type = <put>
+
+    form action = "/"
+     method = "delete"
+     type = "delete"
 
     res.statusCode = 404;
     res.end("Page Not Found");
