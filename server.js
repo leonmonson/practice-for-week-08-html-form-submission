@@ -106,7 +106,25 @@ const server = http.createServer((req, res) => {
       console.log(req.body);
     }
 
-    // Your code here
+    class dog {
+      const("{name,color,age,discripton"}) {;
+        this.name = name;
+        this.color = color;
+        this.age = age;
+        this. discription = discription;
+        }
+}
+    module.export = dogs;
+
+    class cats {
+      const({name,pattern,size,discriptipn}) {;
+        this.name = name;
+        this.pattern = pattern;
+        this.size = size;
+        this.discription = discription;
+        }
+  }
+    module.export cats;
 
     res.statusCode = 404;
     res.end("Page Not Found");
